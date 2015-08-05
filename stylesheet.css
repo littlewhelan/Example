@@ -14,3 +14,13 @@ h1{
 	text-align: center;
 	color: #3c1c6a
 }
+
+table {
+    width: 100%;
+    margin: 1em 0;
+}
+
+table, th, td {
+    border: 2px solid black;
+    text-align: center;
+}
