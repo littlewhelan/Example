@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 
 
- /*$(document.ready(function(){
+ $(document).ready(function(){
     $('#deleteRow').click(function(e) {
     e.preventDefault();
      $(this).delete(
@@ -42,5 +42,5 @@ $(document).ready(function() {
               + '</td></tr>'); 
  });
 
-});*/
+});
 
