@@ -24,3 +24,7 @@ table, th, td {
     border: 2px solid black;
     text-align: center;
 }
+
+#delete-row{
+	display: none;
+}

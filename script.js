@@ -1,5 +1,6 @@
 console.log("This is a test");
 
+
 // This statement makes sure the document is loaded before
 // doing any jQuery/JavaScript stuff that's inside the brackets.
 $(document).ready(function() {
@@ -14,10 +15,39 @@ $(document).ready(function() {
         e.preventDefault();
 
         // Disable this after it gets annoying!
-        alert('What a good decision. Adding a row now. Enjoy your numbers.');
+       // alert('What a good decision. Adding a row now. Enjoy your numbers.');
 
         // Finds the last child of the <tbody> element, which should be a <tr> element,
         // and adds a new row below it.
-        $('#the-table > tbody:last-child').append('<tr><td>' + Math.random() + '</td><td>' + Math.random() + '</td><td>' + Math.random() + '</td></tr>');
+        $('#the-table > tbody:last-child').append(
+            '<tr><td>'
+             + Math.random() + '</td><td>' 
+             + Math.random() + '</td><td>' 
+             + Math.random() + '</td><td>'
+             
+             //<a id="delete-row" href="#">Delete Row</a> 
+             //why does this not work
+             //why can't I put a variable here 
+             //var deletebutton = <a id ="delete-row" href= "#"> Delete Row </a>
+            //how do I make "Delete" a link 
+            //or use the 
+
+              + 'Delete' + 
+              '</td></tr>'); 
     });
 });
+
+
+
+// $($document.ready(function(){
+    // $('#delete-row').click(function(e) {
+    // e.preventDefault();
+    // $(this).delete(
+             // '<tr><td>'
+             // + Math.random() + '</td><td>' 
+             // + Math.random() + '</td><td>' 
+             // + Math.random() + '</td><td>'
+             // + 'Delete' + 
+              // '</td></tr>'); 
+
+
