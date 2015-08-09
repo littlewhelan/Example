@@ -25,6 +25,6 @@ table, th, td {
     text-align: center;
 }
 
-#delete-row{
+#deleteRow{
 	display: none;
 }
